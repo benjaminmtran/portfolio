@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Benjamin Tran | EightFourFour</title>
+	<meta name="description" content="Blueprint: A basic template for a page stack navigation effect" />
+	<meta name="keywords" content="blueprint, template, html, css, page stack, 3d, perspective, navigation, menu" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="js/modernizr-custom.js"></script>
+</head>
+
+<body>
+	<!-- navigation -->
+	<nav class="pages-nav">
+		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-projects">Projects</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-music">Music</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-about">About</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-contact">Contact</a></div>
+		<div class="pages-nav__item pages-nav__item--social">
+			<a class="link link--social link--faded" href="#"><i class="fa fa-twitter"></i><span class="text-hidden">Twitter</span></a>
+			<a class="link link--social link--faded" href="twitter.com/benjaminmtran"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
+			<a class="link link--social link--faded" href="facebook.com/benjaminmtran"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
+			<a class="link link--social link--faded" href="instagram.com/benjaminmtran"><i class="fa fa-instagram"></i><span class="text-hidden">Instagram</span></a>
+		</div>
+	</nav>
+	<!-- /navigation-->
+	<!-- pages stack -->
+	<div class="pages-stack">
+		<!-- page -->
+		<div class="page" id="page-home">
+			<header class="bp-header cf">
+				<div class="text-wrap">
+                  <div class="intro-page">
+                   <svg viewBox="0 0 500 80">
+                    <pattern 
+                     id="p-img" 
+                     viewBox="0 0 300 100"
+                     patternUnits="userSpaceOnUse"
+                     width="200%" height="200%"
+                     x="-60%" y="-10%">
+                    <image xlink:href="https://media.giphy.com/media/dxIWyHLtcuAkE/giphy.gif" width="300" height="200"/>
+                    </pattern>
+                    <text text-anchor="middle"
+                          x="50%"
+                          y="50%"
+                          dy=".35em"
+                          class="img-layer">
+                      Benjamin Tran
+                    </text>
+                    <linearGradient id="gr-overlay" x1="0" y1="0" x2="100%" y2="100%">
+                      <stop stop-color="hsla(50, 100%, 70%, 0.5)" offset="10%"/>
+                      <stop stop-color="hsla(200, 100%, 60%, 0.5)" offset="50%"/>
+                      <stop stop-color="hsla(320, 100%, 50%, 0.5)" offset="90%"/>
+                    </linearGradient>
+                    <text text-anchor="middle"
+                          x="50%"
+                          y="50%"
+                          dy=".35em"
+                          class="gradient-layer">
+                      Benjamin Tran
+                    </text>
+                    </svg>      
+                 </div>
+                 <div id="space"></div>
+                </div>
+                
+                <h1 id="intro">Front End Developer | Musician</h1>
+			</header>
+		</div>
+		<!-- /page -->
+		<div class="page" id="page-projects">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Projects</h1>
+				<p class="info">under construction...</p>
+			</header>
+		</div>
+		<div class="page" id="page-music">
+			<header class="bp-header cf">
+                <div class="grid">
+					<figure class="effect-steve">
+						<img src="images/bondgirls.jpg" alt="img29"/>
+						<figcaption>
+							<h2>Bond<span>Girls</span></h2>
+							<p>Angular Fuzz Rock</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-steve">
+						<img src="images/boxtiger.jpg" alt="img33"/>
+						<figcaption>
+							<h2>The<span>Box</span>Tiger</h2>
+							<p>Indie Pop</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+			</header>
+		</div>
+		<div class="page" id="page-about">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Benjamin Tran</h1>
+				<hr><br><br>
+				<div class="quarter-page">
+                    <img src="images/Me1.jpg" height="225em"/>
+				</div>
+				<div class="half-page">
+				    <p>Hi, I'm Ben!</p>
+				    <p>I'm a front-end developer and musician currently living in Toronto. When I'm not sitting infront of my computer you can normally find me bobbing in and out of traffic on my bicycle or checking out live music.</p>
+				</div>
+			</header>
+		</div>
+		<div class="page" id="page-contact">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Contact</h1>
+				<hr><br><br>
+				<p>email: ben@eightfourfour.ca</p>
+				<p>phone: +4164589764</p>
+				<br>
+				<div>
+			<a class="link link--social link--faded" href="#"><i class="fa fa-twitter"></i><span class="text-hidden">Twitter</span></a>
+			<a class="link link--social link--faded" href="twitter.com/benjaminmtran"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
+			<a class="link link--social link--faded" href="facebook.com/benjaminmtran"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
+			<a class="link link--social link--faded" href="instagram.com/benjaminmtran"><i class="fa fa-instagram"></i><span class="text-hidden">Instagram</span></a>
+		</div>
+				
+			</header>
+		</div>
+	</div>
+	<!-- /pages-stack -->
+	<button class="menu-button"><span>Menu</span></button>
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

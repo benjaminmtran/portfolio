@@ -1,0 +1,69 @@
+/*Dependancies */
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* Home */
+#page-home {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #page-home:last-child {
+    margin-right: 0; }
+
+/* Projects */
+#page-projects {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #page-projects:last-child {
+    margin-right: 0; }
+
+/* Music */
+#page-music {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #page-music:last-child {
+    margin-right: 0; }
+
+/* Blog */
+#page-about {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #page-about:last-child {
+    margin-right: 0; }
+
+.half-page {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%; }
+  .half-page:last-child {
+    margin-right: 0; }
+
+.quarter-page {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .quarter-page:last-child {
+    margin-right: 0; }
+
+/* Contact */
+#page-contact {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #page-contact:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=style.css.map */
